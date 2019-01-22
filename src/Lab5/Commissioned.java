@@ -25,20 +25,13 @@ public class Commissioned extends Employee {
     public double calcGrossPay(DateRange dateRange) {
         double grossSalary = 0;
         grossSalary += baseSalary;
-
-
-
-
-
         for (Order order : orderList) {
-            if ((order.getOrderDate().get(Calendar.MONTH) == month) && (order.getOrderDate().get(Calendar.YEAR) == year)) {
-                grossSalary += order.getOrderAmount();
+            if (dateRange.isInRange(order.getOrderDate())) {
+                grossSalary += (order.getOrderAmount() * getCommission());
             }
         }
-
         return grossSalary;
     }
-
 
 
     @Override
@@ -47,6 +40,13 @@ public class Commissioned extends Employee {
     }
 
 
+    public double getCommission() {
+        return commission;
+    }
+
+    public void setCommission(double commission) {
+        this.commission = commission;
+    }
 }
 
 

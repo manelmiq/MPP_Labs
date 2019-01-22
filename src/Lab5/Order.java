@@ -4,13 +4,13 @@ import java.util.*;
 
 public class Order {
     private int orderNo;
-    private Calendar orderDate;
+    private GregorianCalendar orderDate;
     private double orderAmount;
 
-
-    public Order(int orderNo, Calendar orderDate) {
+    public Order(int orderNo, GregorianCalendar orderDate, double orderAmount) {
         this.orderNo = orderNo;
         this.orderDate = orderDate;
+        this.orderAmount = orderAmount;
     }
 
     public int getOrderNo() {
@@ -30,11 +30,12 @@ public class Order {
     }
 
 
-    public void setOrderDate(Calendar orderDate){
-        this.orderDate = orderDate;
+
+    public GregorianCalendar getOrderDate() {
+        return orderDate;
     }
 
-    public Calendar getOrderDate() {
-        return orderDate;
+    public void setOrderDate(GregorianCalendar orderDate) {
+        this.orderDate = orderDate;
     }
 }
