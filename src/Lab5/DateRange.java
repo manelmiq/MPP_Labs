@@ -24,7 +24,10 @@ public class DateRange {
 
 
     public boolean isInRange(GregorianCalendar dateRange ){
-        return startDate.after(dateRange) && endDate.before(dateRange);
+        long time = dateRange.getTimeInMillis();
+        long starTime = startDate.getTimeInMillis();
+        long endTime = endDate.getTimeInMillis();
+        return (time >= starTime) && (time <= endTime);
     }
 
     @Override

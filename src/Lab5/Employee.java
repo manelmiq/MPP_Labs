@@ -21,8 +21,6 @@ public abstract class Employee {
         GregorianCalendar endDate =  new GregorianCalendar( year, month, 1);
         endDate.add(GregorianCalendar.MONTH, 1);
         endDate.add(GregorianCalendar.DAY_OF_MONTH, -1);
-
-
         DateRange dateRange = new DateRange(startDate, endDate);
         double grossSalary = this.calcGrossPay(dateRange);
         double fica = grossSalary * 0.23;
