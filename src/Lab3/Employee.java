@@ -1,6 +1,7 @@
 package Lab3;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class Employee {
     private int EmployeeId;
@@ -83,6 +84,27 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+
+
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getEmployeeId() == employee.getEmployeeId() &&
+                Double.compare(employee.getSalary(), getSalary()) == 0 &&
+                Objects.equals(getFirstName(), employee.getFirstName()) &&
+                Objects.equals(getMiddleInitial(), employee.getMiddleInitial()) &&
+                Objects.equals(getLastName(), employee.getLastName()) &&
+                Objects.equals(getBirthDate(), employee.getBirthDate()) &&
+                Objects.equals(getSSN(), employee.getSSN());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getEmployeeId(), getFirstName(), getMiddleInitial(), getLastName(), getBirthDate(), getSSN(), getSalary());
     }
 
     public void print(){

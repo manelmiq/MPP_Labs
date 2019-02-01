@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c048d98b-b55a-4014-8dcb-7615e1a6a30a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/BillingDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/EmptyQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/MarketingDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/SalesDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE2/StringQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/CheckoutRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/CheckoutRecordEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/LendingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/LibraryMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/MPP_SEP_May-2017.rtf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/May-2017_Standard_Exam_Question2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SE3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teste/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambaHomework/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambaHomework/IntStreamOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambaHomework/ProcessingEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SE4_Lambda/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SE4_Lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SE4_Lambda/Majors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SE4_Lambda/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MPP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Employee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,10 +27,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SE3/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/LambaHomework/ProcessingEmployees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="163" column="36" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,10 +80,19 @@
         <option value="$PROJECT_DIR$/src/SE3/CheckoutRecord.java" />
         <option value="$PROJECT_DIR$/src/SE3/LibraryMember.java" />
         <option value="$PROJECT_DIR$/src/SE3/CheckoutRecordEntry.java" />
-        <option value="$PROJECT_DIR$/src/SE3/Admin.java" />
         <option value="$PROJECT_DIR$/src/SE3/LendingItem.java" />
         <option value="$PROJECT_DIR$/src/SE3/Book.java" />
         <option value="$PROJECT_DIR$/src/SE3/CD.java" />
+        <option value="$PROJECT_DIR$/src/SE3/Admin.java" />
+        <option value="$PROJECT_DIR$/src/Lab3/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/Lab3/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/LambaHomework/IntStreamOperations.java" />
+        <option value="$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams.java" />
+        <option value="$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams2.java" />
+        <option value="$PROJECT_DIR$/src/LambaHomework/Employee.java" />
+        <option value="$PROJECT_DIR$/src/SE4_Lambda/Student.java" />
+        <option value="$PROJECT_DIR$/src/SE4_Lambda/Admin.java" />
+        <option value="$PROJECT_DIR$/src/LambaHomework/ProcessingEmployees.java" />
       </list>
     </option>
   </component>
@@ -98,13 +102,15 @@
     <option name="width" value="1221" />
     <option name="height" value="635" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,37 +127,44 @@
               <item name="MPP_Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="MPP_Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LambaHomework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MPP_Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="MPP_Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SE3" type="462c0819:PsiDirectoryNode" />
+              <item name="SE4_Lambda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MPP_Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MPP_Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548368259203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549055943539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\986783\Documents\MPP_Labs\src\SE4_Lambda" />
       <recent name="C:\Users\986783\Documents\MPP_Labs\src\SE3" />
       <recent name="C:\Users\986783\Documents\MPP_Labs\src\SE2" />
       <recent name="$PROJECT_DIR$/src/Lab5" />
@@ -169,13 +182,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="CompanyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab3.CompanyApplication" />
+  <component name="RunManager" selected="Application.ProcessingEmployees">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.Main" />
       <module name="MPP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab3.*" />
+          <option name="PATTERN" value="teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="teste.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SE4_Lambda.Main" />
       <module name="MPP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="teste.*" />
+          <option name="PATTERN" value="SE4_Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayRollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab5.PayRollApplication" />
+    <configuration name="ProcessingEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambaHomework.ProcessingEmployees" />
       <module name="MPP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab5.*" />
+          <option name="PATTERN" value="LambaHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcessingEmployees" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PayRollApplication" />
-        <item itemvalue="Application.CompanyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +275,11 @@
       <workItem from="1548120470004" duration="5528000" />
       <workItem from="1548179017956" duration="8277000" />
       <workItem from="1548263417386" duration="11498000" />
-      <workItem from="1548349674252" duration="5897000" />
+      <workItem from="1548349674252" duration="6140000" />
+      <workItem from="1548706390638" duration="3814000" />
+      <workItem from="1548712255225" duration="1171000" />
+      <workItem from="1548715329397" duration="5988000" />
+      <workItem from="1549040719315" duration="7605000" />
     </task>
     <task id="LOCAL-00001" summary="Almost Finished">
       <created>1548196474486</created>
@@ -271,18 +288,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548196474486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SE3">
+      <created>1548368310006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548368310006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43327000" />
+    <option name="totallyTimeSpent" value="62148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6411483" visible="true" weight="0.21303074" />
-      <window_info id="Structure" order="1" sideWeight="0.35885167" side_tool="true" visible="true" weight="0.21303074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7145454" visible="true" weight="0.21303074" />
+      <window_info id="Structure" order="1" sideWeight="0.28545454" side_tool="true" visible="true" weight="0.21303074" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -290,17 +314,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45572916" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4075521" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5007452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294271" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.28385416" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.28385416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,14 +374,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Almost Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished" />
+    <MESSAGE value="SE3" />
+    <option name="LAST_COMMIT_MESSAGE" value="SE3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab5/PayRollApplication.java</url>
-          <line>18</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -399,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab3/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -425,13 +443,6 @@
             <element signature="e#1802#1803#0" expanded="true" />
             <element signature="e#1848#1849#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab3/CompanyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -680,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SE3/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SE3/LendingItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -722,10 +726,194 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SE3/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="2832">
           <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SE3/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab3/CompanyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab3/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Lab3/EmployeeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/LambaHomework/IntStreamOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambaHomework/ArraysAndStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SE4_Lambda/Majors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambaHomework/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SE4_Lambda/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SE4_Lambda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SE4_Lambda/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambaHomework/ProcessingEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="163" column="36" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_66</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MPP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
